@@ -1,0 +1,69 @@
+{
+    "gettingStarted": "By following a few simple steps, this app can give you meaningful answers and analysis to almost any question. Through analyzing the impacts a decision would have and what aspects of your life matter to you, we determine if the decision is worthwhile.\n\nFirst, enter the question you are contemplating. Phrase your question in the form \"Should I …\" for meaningful results.\n\nNext we want to know what the impacts of the decision would be. Determine the impact the decision would have on your finances, family, friends, community, health, and happiness to the best of your ability. We use these impacts to gauge the worthwhileness of the decision.\n\nFinally we want to know how important the categories from earlier are to you. For each category, we ask how important it is to you. Once these are complete, the results of the decision and analysis are ready.\n\nWith your given information, we use an advanced algorithm to generate a decision score, general analysis, and a summary report on your given impact and importance values. The decision score we calculate will be from -100 to 100, where -100 is a very bad decision and 100 is a very good decision.",
+    "questionGuide": {
+        "name": "Writing Your Question",
+        "content": "In this section, we want to know what your question is.\n\nTo receive the most meaningful results, phrasing it in the form \"Should I …\""
+    },
+    "impactGuide": {
+        "name": "The Impacts of Your Decision",
+        "content": "In this section, we want to know what impact the decision would have if you were to do it.\n\nThe categories the decision could have an impact on are finances, family, friends, community, health, and happiness.\n\nFor each category, think of how it would be effected in either a positive, negative, or neutral way."
+    },
+    "importanceGuide": {
+        "name": "Important Personal Values",
+        "content": "In this final section, we want to know what is important to you.\n\nFor each of the categories you rated the impact on before, assess how important each is to you.\n\nIf you feel the importance of these categories stays constant across most of your questions, you can set default values for these in the settings tab under \"Saved Preferences\"."
+    },
+    "question": {
+        "name": "Example Questions",
+        "content": "Here are a few examples if you are having trouble coming up with yours:\n\n\nShould I buy a new car?\n\nShould I go on vacation?\n\nShould I finish my homework?\n\nShould I go to the gym?\n\nShould I quit my job?\n\nShould I eat candy instead of dinner?\n\nShould I break up with them?"
+    },
+    "ratings": [
+        {
+            "name": "The Impact On\nYour Finances",
+            "content": "In this category, we want to know how your finances will be impacted by this decision. Finances can include how much money you have, your current and future income, your assets, and other things depending on the decision you are contemplating.\n\nA rating of -100 means the decision would result in financial turmoil.\n\nA rating of 0 means the decision would have no impact on your finances at all.\n\nA rating of 100 means the decision would be highly profitable."
+        },
+        {
+            "name": "The Impact On\nYour Family",
+            "content": "In this category, we want to know how your family will be impacted by this decision. Family can include your direct and indirect relatives, significant other, your pets, and others depending on the decision you are contemplating.\n\nA rating of -100 means the decision would result in major damage to your family.\n\nA rating of 0 means the decision would have no impact on your family at all.\n\nA rating of 100 means the decision would have very good implications for your family."
+        },
+        {
+            "name": "The Impact On\nYour Friends",
+            "content": "In this category, we want to know how your friends will be impacted by this decision. Who you consider friends can change depending on the decision you are contemplating.\n\nA rating of -100 means the decision would damage or lose important friendships.\n\nA rating of 0 means the decision would have no impact on your friendships at all.\n\nA rating of 100 means the decision would support your friendships and maybe even create new ones."
+        },
+        {
+            "name": "The Impact On\nYour Community",
+            "content": "In this category, we want to know how your community will be impacted by this decision. Community can include the organizations you are a part of, your neighborhood, who you work with, and other groups depending on the decision you are contemplating.\n\nA rating of -100 means the decision would upset or damage the community greatly.\n\nA rating of 0 means the decision would have no impact on your community at all.\n\nA rating of 100 means the decision would bond and enrich the community."
+        },
+        {
+            "name": "The Impact On\nYour Health",
+            "content": "In this category, we want to know how your health will be impacted by this decision. Health can mean your physical or mental health depending on the decision you are contemplating.\n\nA rating of -100 means the decision would have lasting negative effects on your health.\n\nA rating of 0 means the decision would have no impact on your health at all.\n\nA rating of 100 means the decision would have great physical and mental benefits."
+        },
+        {
+            "name": "The Impact On\nYour Happiness",
+            "content": "In this category, we want to know how your happiness will be impacted by this decision. Happiness can mean your short term pleasure or long term satisfaction depending on the decision you are contemplating.\n\nA rating of -100 means the decision would make you very unhappy.\n\nA rating of 0 means the decision would have no impact on your happiness at all.\n\nA rating of 100 means the decision would make you very happy."
+        },
+        {
+            "name": "The Importance Of Finances",
+            "content": "In this category, we want to know how important your finances are to you. Finances can include how much money you have, your current and future income, your assets, and other things depending on the decision you are contemplating.\n\nIf your finances are not important to you, your rating is in the 0 to 25 range.\n\nIf finances matters to you, but are not the most important, your rating is in the 25 to 75 range.\n\nIf your finances are one of the most important aspects of your life, your rating is in the 75 to 100 range."
+        },
+        {
+            "name": "The Importance Of Family",
+            "content": "In this category, we want to know how important your family is to you. Family can include your direct and indirect relatives, significant other, your pets, and others depending on the decision you are contemplating.\n\nIf your family is not very important to you, your rating is in the 0 to 25 range.\n\nIf your family matters to you, but is not the most important, your rating is in the 25 to 75 range.\n\nIf your family is one of the most important aspects of your life, your rating is in the 75 to 100 range."
+        },
+        {
+            "name": "The Importance Of Friends",
+            "content": "In this category, we want to know how important your friends are to you. Who you consider friends can change depending on the decision you are contemplating.\n\nIf your friends are not important to you, your rating is in the 0 to 25 range.\n\nIf your friends matter to you, but they are not the most important, your rating is in the 25 to 75 range.\n\nIf your friends are one of the most important aspects of your life, your rating is in the 75 to 100 range."
+        },
+        {
+            "name": "The Importance Of Community",
+            "content": "In this category, we want to know how important your community is to you. Community can include the organizations you are a part of, your neighborhood, who you work with, and other groups depending on the decision you are contemplating.\n\nIf your community is not important to you, your rating is in the 0 to 25 range.\n\nIf your community matters to you, but is not the most important, your rating is in the 25 to 75 range.\n\nIf your community is one of the the most important aspects of your life, your rating is in the 75 to 100 range."
+        },
+        {
+            "name": "The Importance Of Health",
+            "content": "In this category, we want to know how important your health is to you. Health can mean your physical or mental health depending on the decision you are contemplating.\n\nIf your health is not important to you, your rating is in the 0 to 25 range.\n\nIf your health matters to you, but is not the most important, your rating is in the 25 to 75 range.\n\nIf your health is the most important aspect of your life, your rating is in the 75 to 100 range."
+        },
+        {
+            "name": "The Importance Of Happiness",
+            "content": "In this category, we want to know how important your happiness is to you. Happiness can mean your short term pleasure or long term satisfaction depending on the decision you are contemplating.\n\nIf your happiness is not important to you, your rating is in the 0 to 25 range.\n\nIf you are comfortable being somewhat happy in your life, your rating is in the 25 to 75 range.\n\nIf your happiness is the most important aspect of your life, your rating is in the 75 to 100 range."
+        }
+    ]
+}
