@@ -1,6 +1,6 @@
 {
   "name": "should-i",
-  "version": "0.0.1",
+  "version": "1.00.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -23,10 +23,8 @@
     "react": "17.0.1",
     "react-native": "^0.64.3",
     "react-native-check-box": "^2.1.7",
-    "react-native-crypto-js": "^1.0.0",
     "react-native-gesture-handler": "^1.10.3",
     "react-native-haptic-feedback": "^1.11.0",
-    "react-native-keychain": "^8.0.0",
     "react-native-reanimated": "^2.1.0",
     "react-native-safe-area-context": "^3.2.0",
     "react-native-screens": "^3.1.1",

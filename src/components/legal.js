@@ -20,14 +20,14 @@ const TermsAndConditions = () => {
                 “Agreement” denotes to this Terms and Conditions and the Privacy Policy and other documents provided to you by the App.
             </Text>
             <Text style={styles.normal}>
-                <Text style={styles.bold}>"We,"</Text> <Text style={styles.bold}>"us,"</Text> and <Text style={styles.bold}>"our"</Text> are references to SHOULD I.
+                <Text style={styles.bold}>"We,"</Text> <Text style={styles.bold}>"us,"</Text> and <Text style={styles.bold}>"our"</Text> are references to SHOULD I? - A DECISION MAKER.
             </Text>
             <Text style={styles.normal}>
                 <Text style={styles.bold}>"User,"</Text> <Text style={styles.bold}>"you,"</Text> and <Text style={styles.bold}>"your" </Text>
                 denotes the person who is accessing the App for taking or availing any service from us. User shall include the Company, partnership, sole trader, person, body corporate, or association taking services of this App.
             </Text>
             <Text style={styles.normal}>
-                <Text style={styles.bold}>"App"</Text> shall mean and include <Text style={styles.bold}>Should I</Text> and any successor App of the Company or any of its affiliates.
+                <Text style={styles.bold}>"App"</Text> shall mean and include <Text style={styles.bold}>Should I? - A Decision Maker</Text> and any successor App of the Company or any of its affiliates.
             </Text>
             <Text style={styles.normal}>
                 <Text style={styles.bold}>Parties</Text>: Collectively, the parties to this Agreement (We and You) will be referred to as Parties.
@@ -74,7 +74,7 @@ const TermsAndConditions = () => {
             <Text style={styles.subheader}>ACCEPTABLE USE</Text>
             <Text style={styles.normal}>
                 You agree not to use the App or Services for any unlawful purpose, or any purpose prohibited under this clause.
-                You agree not to use the App or Services in any way that could damage the App, Services, or general business of Should I.
+                You agree not to use the App or Services in any way that could damage the App or Service.
             </Text>
             <Text style={[styles.normal, { marginLeft: 10 * screen.width }]}>
                 • You further agree not to use the App or Services:
@@ -125,7 +125,7 @@ const TermsAndConditions = () => {
                 You shall use your judgment, caution, and common sense in evaluating any prospective methods or offers and any information provided by us or any third party.
             </Text>
             <Text style={styles.normal}>
-                Further, we shall not be liable for direct, indirect consequential, or any other form of loss or damage that may be suffered by a user using the Should I App, including loss of data or information or any kind of financial or physical loss or damage.
+                Further, we shall not be liable for direct, indirect consequential, or any other form of loss or damage that may be suffered by a user using the app, including loss of data or information or any kind of financial or physical loss or damage.
             </Text>
             <Text style={styles.normal}>
                 In no event shall DMP1LLC, nor its Owner, directors, employees, partners, agents, suppliers, or affiliates, be accountable for any indirect, incidental, special, eventful, or exemplary costs, including without limitation, loss of proceeds, figures, usage, goodwill, or other intangible losses, consequential from (i) your use or access of or failure to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content attained from the Service; and (iv) unlawful access, use or alteration of your transmissions or content, whether or not based on guarantee, agreement, domestic wrong (including carelessness) or any other lawful concept, whether or not we've been aware of the possibility of such damage, and even if a cure set forth herein is originated to have futile of its important purpose.
@@ -191,7 +191,7 @@ const TermsAndConditions = () => {
             <Text style={[styles.normal, { marginLeft: 10 * screen.width }]}>
                 <Text style={styles.subheader}>2. ASSIGNMENT</Text>:
                 This Agreement, or the rights granted hereunder, may not be assigned, sold, leased, or otherwise transferred in whole or part by you.
-                Should this Agreement, or the rights granted hereunder, be assigned, sold, leased, or otherwise transferred by us, the rights and liabilities of <Text style={styles.bold}>Should I</Text> will bind and inure to any assignees, administrators, successors, and executors.
+                Should this Agreement, or the rights granted hereunder, be assigned, sold, leased, or otherwise transferred by us, the rights and liabilities of <Text style={styles.bold}>Should I? - A Decision Maker</Text> will bind and inure to any assignees, administrators, successors, and executors.
             </Text>
             <Text style={[styles.normal, { marginLeft: 10 * screen.width }]}>
                 <Text style={styles.subheader}>3. SEVERABILITY</Text>:
@@ -224,7 +224,7 @@ const TermsAndConditions = () => {
                     Linking.openURL("mailto:shouldi.app.help@gmail.com")
                 }}>shouldi.app.help@gmail.com</Text>.
             </Text>
-            <Text style={styles.normal}>This document was last updated on June 7, 2022.</Text>
+            <Text style={styles.normal}>This document was last updated on June 8, 2022.</Text>
         </Pressable>
     )
 }
@@ -242,19 +242,20 @@ const PrivacyPolicy = () => {
             </Text>
             <Text style={[styles.normal, { marginLeft: 10 * screen.width }]}>
                 • This Privacy Policy <Text style={styles.bold}>(“Privacy Policy”)</Text> describes how <Text style={styles.bold}>DMP1LLC</Text>.
-                Will gather, use, and maintain your Personal Information on the app <Text style={styles.bold}>"Should I"</Text>.
+                Will gather, use, and maintain your Personal Information on the app <Text style={styles.bold}>"Should I? - A Decision Maker"</Text>.
                 It will also explain your legal rights with respect to that information.
             </Text>
             <Text style={[styles.normal, { marginLeft: 10 * screen.width }]}>
                 • By using the App or services, you confirm that you have read and understood this Privacy Policy and our Terms (together referred to herein as the “<Text style={styles.bold}>Agreement</Text>”).
-                The Agreement governs the use of Should I.
+                The Agreement governs the use of the app.
                 We will collect, use, and maintain information consistent with the Agreement.
             </Text>
             <Text style={styles.subheader}>What data do we collect from the people who visit our App?</Text>
             <Text style={styles.normal}>
-                We collect only the data directly provided by your use of the app.
-                Specifically, this data is our record of your agreement to the last terms and conditions you agreed to, the questions, input, and results you choose to save to the in-app history as wel as the user preferences you can optionally provide.
-                No sensitive information (name, contact information, device name, IP, address, browser, location, language) is collected by using this app.
+                We do not collect, share, or otherwise transmit any data from the app.
+                In the app itself, we only store the data directly provided by your use of the app.
+                Specifically, this data is a record of your agreement to the last terms and conditions you agreed to, the questions, input, and results you choose to save to the in-app history as wel as the user preferences you can optionally provide.
+                No sensitive information (name, contact information, device name, IP, address, browser, location, language) is stored in this app.
             </Text>
             <Text style={styles.subheader}>Information that is shared by the user</Text>
             <Text style={styles.normal}>
@@ -447,7 +448,7 @@ const PrivacyPolicy = () => {
                 }}>shouldi.app.help@gmail.com</Text>.
             </Text>
             <Text style={styles.normal}>
-                This document was last updated on June 7, 2022.
+                This document was last updated on June 8, 2022.
             </Text>
         </Pressable>
     )
