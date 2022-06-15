@@ -20,14 +20,14 @@ const TermsAndConditions = () => {
                 “Agreement” denotes to this Terms and Conditions and the Privacy Policy and other documents provided to you by the App.
             </Text>
             <Text style={styles.normal}>
-                <Text style={styles.bold}>"We,"</Text> <Text style={styles.bold}>"us,"</Text> and <Text style={styles.bold}>"our"</Text> are references to SHOULD I? - A DECISION MAKER.
+                <Text style={styles.bold}>"We,"</Text> <Text style={styles.bold}>"us,"</Text> and <Text style={styles.bold}>"our"</Text> are references to SHOULD I DO IT?.
             </Text>
             <Text style={styles.normal}>
                 <Text style={styles.bold}>"User,"</Text> <Text style={styles.bold}>"you,"</Text> and <Text style={styles.bold}>"your" </Text>
                 denotes the person who is accessing the App for taking or availing any service from us. User shall include the Company, partnership, sole trader, person, body corporate, or association taking services of this App.
             </Text>
             <Text style={styles.normal}>
-                <Text style={styles.bold}>"App"</Text> shall mean and include <Text style={styles.bold}>Should I? - A Decision Maker</Text> and any successor App of the Company or any of its affiliates.
+                <Text style={styles.bold}>"App"</Text> shall mean and include <Text style={styles.bold}>Should I Do It?</Text> and any successor App of the Company or any of its affiliates.
             </Text>
             <Text style={styles.normal}>
                 <Text style={styles.bold}>Parties</Text>: Collectively, the parties to this Agreement (We and You) will be referred to as Parties.
@@ -191,7 +191,7 @@ const TermsAndConditions = () => {
             <Text style={[styles.normal, { marginLeft: 10 * screen.width }]}>
                 <Text style={styles.subheader}>2. ASSIGNMENT</Text>:
                 This Agreement, or the rights granted hereunder, may not be assigned, sold, leased, or otherwise transferred in whole or part by you.
-                Should this Agreement, or the rights granted hereunder, be assigned, sold, leased, or otherwise transferred by us, the rights and liabilities of <Text style={styles.bold}>Should I? - A Decision Maker</Text> will bind and inure to any assignees, administrators, successors, and executors.
+                Should this Agreement, or the rights granted hereunder, be assigned, sold, leased, or otherwise transferred by us, the rights and liabilities of the app will bind and inure to any assignees, administrators, successors, and executors.
             </Text>
             <Text style={[styles.normal, { marginLeft: 10 * screen.width }]}>
                 <Text style={styles.subheader}>3. SEVERABILITY</Text>:
@@ -224,7 +224,7 @@ const TermsAndConditions = () => {
                     Linking.openURL("mailto:shouldi.app.help@gmail.com")
                 }}>shouldi.app.help@gmail.com</Text>.
             </Text>
-            <Text style={styles.normal}>This document was last updated on June 8, 2022.</Text>
+            <Text style={styles.normal}>This document was last updated on June 14, 2022.</Text>
         </Pressable>
     )
 }
@@ -242,7 +242,7 @@ const PrivacyPolicy = () => {
             </Text>
             <Text style={[styles.normal, { marginLeft: 10 * screen.width }]}>
                 • This Privacy Policy <Text style={styles.bold}>(“Privacy Policy”)</Text> describes how <Text style={styles.bold}>DMP1LLC</Text>.
-                Will gather, use, and maintain your Personal Information on the app <Text style={styles.bold}>"Should I? - A Decision Maker"</Text>.
+                Will gather, use, and maintain your Personal Information on the app <Text style={styles.bold}>"Should I Do It?"</Text>.
                 It will also explain your legal rights with respect to that information.
             </Text>
             <Text style={[styles.normal, { marginLeft: 10 * screen.width }]}>
@@ -448,7 +448,7 @@ const PrivacyPolicy = () => {
                 }}>shouldi.app.help@gmail.com</Text>.
             </Text>
             <Text style={styles.normal}>
-                This document was last updated on June 8, 2022.
+                This document was last updated on June 14, 2022.
             </Text>
         </Pressable>
     )

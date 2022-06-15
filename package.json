@@ -1,6 +1,6 @@
 {
   "name": "should-i",
-  "version": "1.00.1",
+  "version": "1.00.2",
   "private": true,
   "scripts": {
     "android": "react-native run-android",

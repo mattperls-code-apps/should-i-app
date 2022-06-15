@@ -110,19 +110,25 @@ const HomeResultsStack = ({ navigation, input }) => {
                                     }
                                 })
                             }} marginTop={10}>Share Your Results</WideButton>
-                            <WideButton onPress={() => {
-                                if(!hasSaved){
-                                    setHasSaved(true)
-                                    getKey("resultsHistory", (resultsHistory) => {
-                                        const updatedResultsHistory = [...resultsHistory, {
-                                            id: Date.now(),
-                                            input,
-                                            output
-                                        }]
-                                        setKey("resultsHistory", updatedResultsHistory)
-                                    })
-                                }
-                            }} marginTop={10}>Save Results To History</WideButton>
+                            {
+                                hasSaved ? (
+                                    <View style={styles.savedMessageContainer}>
+                                        <Text style={styles.savedMessageText}>Results Have Been{"\n"}Saved To History</Text>
+                                    </View>
+                                ) : (
+                                    <WideButton onPress={() => {
+                                        setHasSaved(true)
+                                        getKey("resultsHistory", (resultsHistory) => {
+                                            const updatedResultsHistory = [...resultsHistory, {
+                                                id: Date.now(),
+                                                input,
+                                                output
+                                            }]
+                                            setKey("resultsHistory", updatedResultsHistory)
+                                        })
+                                    }} marginTop={10}>Save Results To History</WideButton>
+                                )
+                            }
                             <SplitButton delayLeftPress leftLabel={"Back"} onLeftPress={() => {
                                 navigation.goBack()
                             }} rightLabel={"Home"} onRightPress={() => {
@@ -176,6 +182,19 @@ const styles = StyleSheet.create({
         fontFamily: "Roboto",
         fontWeight: "400",
         fontSize: 4.75 * screen.width
+    },
+    savedMessageContainer: {
+        marginTop: 10,
+        height: 11.8 * screen.height,
+        justifyContent: "center"
+    },
+    savedMessageText: {
+        color: colors.extraLightPurple,
+        fontFamily: "Roboto",
+        fontWeight: "700",
+        fontSize: 5 * screen.width,
+        lineHeight: 6.5 * screen.width,
+        textAlign: "center"
     }
 })
 

@@ -23,7 +23,7 @@ const colors = {
     transparent: "rgba(0, 0, 0, 0)"
 }
 
-const mostRecentTermsAndConditions = "5-10-2022"
+const mostRecentTermsAndConditions = "6-14-2022"
 
 export {
     screen, colors, mostRecentTermsAndConditions
