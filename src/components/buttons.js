@@ -29,12 +29,12 @@ const RegularButton = ({ children, noDelay, onPress, marginVertical }) => {
     )
 }
 
-const WideButton = ({ children, onPress, marginTop }) => {
+const WideButton = ({ children, onPress, marginTop, isMemorySafe }) => {
     return (
         <NavigationPushContainer activeOpacity={0.75} onPress={() => {
             haptic("impactLight")
             onPress()
-        }}> 
+        }} isMemorySafe={isMemorySafe}> 
             <View style={[styles.wideButtonContainer, {
                 marginTop
             }]}>

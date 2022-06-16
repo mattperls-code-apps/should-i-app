@@ -10,16 +10,22 @@ const NavigationPushContainer = (props) => {
     let [clickFired, setClickFired] = useState(false)
 
     useEffect(() => {
+        let isMounted = true
+
         if(clickFired){
             setClickFired(false)
             if(clickable){
                 props.onPress()
                 setClickable(false)
                 setTimeout(() => {
-                    setClickable(true)
+                    if(!props.isMemorySafe || isMounted){
+                        setClickable(true)
+                    }
                 }, typeof props.delay == "number" ? props.delay : 500)
             }
         }
+
+        return () => { isMounted = false }
     }, [clickable, clickFired])
 
     return <TouchableOpacity {...props} onPress={() => {

@@ -31,7 +31,7 @@ const SettingsDefaultStack = ({ navigation }) => {
                         <SettingInfo label={"Contact Us"} onClick={() => {
                             Linking.openURL("mailto:should-i.app.help@gmail.com")
                         }} />
-                        <Text style={styles.versionLabel}>v1.00.2</Text>
+                        <Text style={styles.versionLabel}>v1.00.3</Text>
                     </View>
                 </TouchableWithoutFeedback>
             </ScrollView>

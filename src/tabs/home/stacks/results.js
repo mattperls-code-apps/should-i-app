@@ -126,7 +126,7 @@ const HomeResultsStack = ({ navigation, input }) => {
                                             }]
                                             setKey("resultsHistory", updatedResultsHistory)
                                         })
-                                    }} marginTop={10}>Save Results To History</WideButton>
+                                    }} marginTop={10} isMemorySafe>Save Results To History</WideButton>
                                 )
                             }
                             <SplitButton delayLeftPress leftLabel={"Back"} onLeftPress={() => {
